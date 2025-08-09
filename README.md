@@ -79,17 +79,17 @@ http://localhost:8123/doc.html
 
 ### 小红书酒店推广
 ```bash
-curl -X GET 'http://localhost:8080/ai/xhsHotel/chat/sse?message=帮我生成一篇关于三亚海景酒店的推广文案'
+curl -X GET 'http://localhost:8123/ai/xhsHotel/chat/sse?message=帮我生成一篇关于三亚海景酒店的推广文案'
 ```
 
 ### 小红书旅游推广
 ```bash
-curl -X GET 'http://localhost:8080/ai/xhsTravel/chat/sse?message=帮我生成一篇关于云南旅游的推广文案&chatId=123'
+curl -X GET 'http://localhost:8123/ai/xhsTravel/chat/sse?message=帮我生成一篇关于云南旅游的推广文案&chatId=123'
 ```
 
 ### 小红书视频脚本
 ```bash
-curl -X GET 'http://localhost:8080/ai/xhsVideoScript/chat/sse?message=帮我生成一个关于美食探店的视频脚本&chatId=456'
+curl -X GET 'http://localhost:8123/ai/xhsVideoScript/chat/sse?message=帮我生成一个关于美食探店的视频脚本&chatId=456'
 ```
 
 ## 项目结构
