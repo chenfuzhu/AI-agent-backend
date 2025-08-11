@@ -48,8 +48,8 @@ public class UserService {
 
         //3.比对账号密码是否正确
         UserDTO user = new UserDTO();
-        user.setAccount("vipUser001");
-        user.setPassword("qwerty123");
+        user.setAccount("buzhunkan");
+        user.setPassword("eygjssb");
         user.setRole(UserRole.VIP);
 
         if(user==null){
