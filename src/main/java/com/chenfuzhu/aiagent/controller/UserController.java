@@ -35,11 +35,11 @@ public class UserController {
         String userPassword = loginRequest.getPassword();
 
         UserDTO user = new UserDTO();
-        user.setAccount("vipUser001");
-        user.setPassword("qwerty123");
+        user.setAccount("buzhunkan");
+        user.setPassword("eygjssb");
         user.setRole(UserRole.VIP);
 
-        if(!userAccount.equals("vipUser001")  || !userPassword.equals("qwerty123") ) {
+        if(!userAccount.equals("buzhunkan")  || !userPassword.equals("ergjssb") ) {
             return new BaseResponse(1,userAccount,"Login failed");
         }
 
@@ -51,7 +51,7 @@ public class UserController {
     @PostMapping("/logout")
     public BaseResponse logout(HttpServletRequest request) {
         request.getSession().invalidate();
-        return new BaseResponse(0, "vipUser001","Logout successful");
+        return new BaseResponse(0, "buzhunkan","Logout successful");
     }
 
     @GetMapping("/session-check")
