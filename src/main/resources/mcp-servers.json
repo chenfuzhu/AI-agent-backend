@@ -7,7 +7,7 @@
         "@amap/amap-maps-mcp-server"
       ],
       "env": {
-        "AMAP_MAPS_API_KEY": "419cc89f4d10ba5c122861c540cfb188"
+        "AMAP_MAPS_API_KEY": "YOUR KEY"
       }
     }
   }
